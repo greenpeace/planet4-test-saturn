@@ -3,10 +3,12 @@
 	"description": "Greenpeace P4 test-saturn",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
-		"wpackagist-plugin/google-apps-login": "3.4.3",
-		"wpackagist-plugin/wp-redis": "1.1.*"
+		"greenpeace/planet4-master-theme": "dev-planet-5753",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master",
+		"greenpeace/planet4-child-theme-netherlands": "4.*",
+		"greenpeace/planet4-child-theme-switzerland": "1.*",
+		"greenpeace/planet4-gpch-gutenberg-blocks": "0.*",
+		"greenpeace/planet4-gpnl-plugin-gutenberg-blocks": "2.*"
 	},
 	"data_from": "international",
 	"scripts": {

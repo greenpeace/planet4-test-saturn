@@ -7,6 +7,7 @@
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-planet-5642",
 		"greenpeace/planet4-child-theme-netherlands": "4.*",
 		"greenpeace/planet4-child-theme-switzerland": "1.*",
+		"greenpeace/planet4-child-theme-nordic": "1.*",
 		"greenpeace/planet4-gpch-gutenberg-blocks": "0.*",
 		"greenpeace/planet4-gpnl-plugin-gutenberg-blocks": "2.*"
 	},

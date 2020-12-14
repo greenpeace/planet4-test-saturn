@@ -2,23 +2,9 @@
 	"name": "greenpeace/planet4-test-saturn",
 	"description": "Greenpeace P4 test-saturn",
 	"license": "MIT",
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "plugins/wpml",
-				"version": "4.3.12",
-				"dist": {
-					"url": "https://storage.googleapis.com/planet4-3rdparty-plugins/sitepress-multilingual-cms.4.3.12.zip",
-					"type": "zip"
-				}
-			}
-		}
-	],
 	"require": {
 		"greenpeace/planet4-master-theme": "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master",
-		"plugins/wpml": "*"
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master"
 	},
 	"data_from": "international",
 	"scripts": {

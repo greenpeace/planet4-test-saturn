@@ -6,7 +6,7 @@
 		{
 			"type": "package",
 			"package": {
-				"name": "plugin-wpml",
+				"name": "plugins/wpml",
 				"version": "4.3.12",
 				"dist": {
 					"url": "https://storage.googleapis.com/planet4-3rdparty-plugins/sitepress-multilingual-cms.4.3.12.zip",
@@ -18,7 +18,7 @@
 	"require": {
 		"greenpeace/planet4-master-theme": "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master",
-		"plugin-wpml": "*"
+		"plugins/wpml": "*"
 	},
 	"data_from": "international",
 	"scripts": {

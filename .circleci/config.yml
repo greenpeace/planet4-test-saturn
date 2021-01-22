@@ -32,10 +32,9 @@ job_environments:
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-test-saturn
     NEWRELIC_APPNAME: P4 test-saturn Development
-    PARENT_VERSION: remove-es-index
     WP_DB_NAME: planet4-testsatu_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-saturn-stateless-develop
-
+    GIT_REF: remove-es-index
 
 commands:
   approve_job:

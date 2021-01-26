@@ -34,7 +34,6 @@ job_environments:
     NEWRELIC_APPNAME: P4 test-saturn Development
     WP_DB_NAME: planet4-testsatu_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-saturn-stateless-develop
-    GIT_REF: remove-es-index
 
 commands:
   approve_job:

@@ -35,6 +35,7 @@ job_environments:
     WP_DB_NAME: planet4-testsatu_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-saturn-stateless-develop
 
+
 commands:
   approve_job:
     description: "Approve an on-hold job."
@@ -271,7 +272,7 @@ jobs:
       - run:
           name: Configure
           command: |
-            ${HOME}/scripts/activate-gcloud-account.sh
+            activate-gcloud-account.sh
       - run: /home/circleci/sync_to_test_site.sh
 
 workflow_definitions:
@@ -279,7 +280,7 @@ workflow_definitions:
     context: org-global
     filters:
       branches:
-        only: develop
+        only: main
 
 workflows:
   develop:

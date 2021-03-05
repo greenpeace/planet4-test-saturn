@@ -7,8 +7,8 @@ parameters:
     default: false
 
 docker_auth: &docker_auth
-    username: $DOCKERHUB_USERNAME
-    password: $DOCKERHUB_PASSWORD
+  username: $DOCKERHUB_USERNAME
+  password: $DOCKERHUB_PASSWORD
 
 defaults: &defaults
   docker:
@@ -23,7 +23,6 @@ job_environments:
     APP_HOSTPATH: test-saturn
     CONTAINER_PREFIX: planet4-test-saturn
     WP_DB_NAME_PREFIX: planet4-testsatu_wordpress
-    WP_VERSION: 5.6.2
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: www-dev.greenpeace.org
@@ -157,7 +156,7 @@ job_definitions:
   test_steps: &test_steps
     working_directory: ~/project
     docker:
-      - image: gcr.io/planet-4-151612/p4-codeception:build-12
+      - image: greenpeaceinternationa/p4-codeception:latest
       - name: selenium
         image: selenium/standalone-chrome-debug:3.141.59-oxygen
         auth:

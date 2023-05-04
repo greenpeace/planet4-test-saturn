@@ -3,8 +3,8 @@
 	"description": "Greenpeace P4 test-saturn",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-main",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-PLANET-7053_investigate-gf-duplication-options",
+		"greenpeace/planet4-master-theme": "dev-PLANET-7053_investigate-gf-duplication-options",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-main",
 		"plugins/gravityformsgoogleanalytics": "*"
 	},
 	"data_from": "international",

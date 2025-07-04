@@ -3,26 +3,6 @@
 	"description": "Greenpeace P4 test-saturn",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7"
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/410712ff08c5156b18be37b28a9b9acb05f35206.zip"
-				}
-			}
-		}
-	]
+		"greenpeace/planet4-master-theme": "dev-main"
+	}
 }
